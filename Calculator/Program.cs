@@ -43,6 +43,8 @@ namespace Calculator
                 expression = first * second;
             else if (operation == "divide")
                 expression = first / second;
+            else
+             Console.WriteLine("Sorry, we didn't understand what you entered."); 
 
             //Finally, I am printing the expression to the console.
             Console.WriteLine(expression);
